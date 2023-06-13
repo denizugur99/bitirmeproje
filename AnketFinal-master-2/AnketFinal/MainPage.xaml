@@ -4,6 +4,8 @@
              x:Class="AnketFinal.MainPage"
              xmlns:model="clr-namespace:AnketFinal.Model"
              xmlns:viewmodel="clr-namespace:AnketFinal.ViewModel"
+             xmlns:ios="clr-namespace:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific;assembly=Microsoft.Maui.Controls"
+             ios:Page.UseSafeArea="False"
              x:DataType="viewmodel:AnketsViewModel"
              Title="{Binding Title}">
     <Grid ColumnDefinitions="*,*"
